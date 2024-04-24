@@ -17,8 +17,8 @@ function self_install(e) {
   function addCaches(cache) {
     console.log("sw.js: Start Adding Caches");
     cache.addAll([
-      project_file("./"),
-      project_file("./index.html"),
+//      project_file("./"),
+//      project_file("./index.html"),
 //      project_file("./index.js"),
 //      project_file("./worker_api.js"),
 //      project_file("./style.css"),
