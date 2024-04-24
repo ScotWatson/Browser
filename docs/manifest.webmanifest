@@ -1,20 +1,20 @@
 {
-  "background_color": "#FF0000",
+  "background_color": "#000000",
   "dir": "auto",
-  "display": "standalone",
+  "display": "browser",
   "icons": [
     {
       "src": "icon144.png",
       "sizes": "144x144"
     }
   ],
-  "id": "https://scotwatson.github.io/WebInterface/index.html",
+  "id": "https://scotwatson.github.io/Browser/index.html",
   "lang": "en",
-  "name": "Web Interface",
+  "name": "Browser",
   "orientation": "any",
-  "scope": "/WebInterface",
-  "short_name": "Web Interface",
+  "scope": "/Browser",
+  "short_name": "Browser",
   "shortcuts": [],
-  "start_url": "https://scotwatson.github.io/WebInterface/index.html",
-  "theme_color": "#00FF00"
+  "start_url": "https://scotwatson.github.io/Browser/index.html",
+  "theme_color": "#FFFFFF"
 }
