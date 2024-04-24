@@ -35,10 +35,11 @@ function set_as_worker_script(path) {
 function self_fetch(e) {
   console.log("sw.js: Start Handling Fetch");
   console.log(e);
-  function sendResponse(response) {
-    return response || fetch(e.request);
-  }
-  e.respondWith(caches.match(e.request).then(sendResponse));
+//  function sendResponse(response) {
+//    return response || fetch(e.request);
+//  }
+//  e.respondWith(caches.match(e.request).then(sendResponse));
+  e.respondWith(fetch(e.request));
   console.log("sw.js: End Handling Fetch");
 }
 
