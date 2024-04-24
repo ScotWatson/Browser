@@ -19,5 +19,7 @@ function fail() {
 
 function start([ Interface ]) {
   try {
+  } catch (e) {
+    console.error(e);
   }
 }
